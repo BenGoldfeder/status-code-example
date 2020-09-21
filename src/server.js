@@ -23,7 +23,6 @@ const urlStruct = {
 
 const onRequest = (request, response) => {
     const parsedURL = url.parse(request.url);
-    const acceptedTypes = request.headers.accept.split(',');
     const params = query.parse(parsedURL.query);
     
     if(urlStruct[parsedURL.pathname]) {
