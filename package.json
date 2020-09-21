@@ -9,10 +9,19 @@
     "test": "echo \"Tests complete\""
   },
   "author": "Cody Van De Mark / Austin Willoughby",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "devDependencies": {
-    "eslint": "^7.7.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-plugin-import": "^2.22.0"
-  }
+    "eslint-plugin-import": "^2.22.0",
+    "jsontoxml": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGoldfeder/status-code-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenGoldfeder/status-code-example/issues"
+  },
+  "homepage": "https://github.com/BenGoldfeder/status-code-example#readme"
 }
